@@ -7,4 +7,4 @@ export const routes: Routes = [
     { path : 'inicio-sesion', component: InicioSesionComponent},
     { path : 'app-registro', component: RegistroComponent},
     { path : 'app-dashboard', component: DashboardComponent},
-];
+]
