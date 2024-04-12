@@ -1,1 +1,20 @@
-<p>barra-navegacion works!</p>
+<!-- Barra de navegación de inicio de la aplicación -->
+<nav class="navbar">
+    <div class="container-fluid">
+      <!-- Botón de inicio de sesión -->
+      <div class="nav-item" [class.active]="selectedTab == 'iniciarSesion'">
+        <span class="nav-link" (click)="selectTab('iniciarSesion')">Iniciar Sesión</span>
+      </div>
+  
+      <!-- Logo de la aplicación en el centro  -->
+      <a class="navbar-brand" [class.active]="selectedTab == 'logo'">
+        <img src="/assets/Logo.png" (click)="selectTab('logo')" alt="Logo de TripTico">
+      </a>
+       
+      <!-- Botón de registro  -->
+      <div class="nav-item" [class.active]="selectedTab == 'registrarse'">
+        <span class="nav-link" (click)="selectTab('registrarse')">Registrarme</span>
+      </div>
+    </div>
+  </nav>
+  
