@@ -1,1 +1,37 @@
-<p>barra-navegacion works!</p>
+<!-- Barra de navegación para cuenta empresaria -->
+<nav class="navbar">
+    <div class="container-fluid">
+        <div class="izquierda">
+            <!-- Logo de la aplicación -->
+            <a class="navbar-brand" [class.active]="selectedTab == 'logoB'">
+                <img src="/assets/LogoB.png" (click)="selectTab('logoB')" alt="Logo de TripTico">
+            </a>
+
+            <!-- Botón de Mis sitios turisticos -->
+            <div class="nav-item" [class.active]="selectedTab == 'misTuristicos'">
+                <span class="nav-link" (click)="selectTab('misTuristicos')">Mis sitios turisticos</span>
+            </div>
+            
+            <!-- Botón de mis ganancias  -->
+            <div class="nav-item" [class.active]="selectedTab == 'misGanancias'">
+                <span class="nav-link" (click)="selectTab('misGanancias')">Mis ganancias</span>
+            </div>
+        </div>
+        <div class="derecha">
+            <!-- Logo de pesos "COP" -->
+            <a class="navbar-brand" [class.active]="selectedTab == 'moneda'">
+                <img class="moneda-img" src="/assets/moneda.png" (click)="selectTab('moneda')" alt="Moneda">
+            </a>
+
+            <!-- Logo de Languaje "world" -->
+            <a class="navbar-brand" [class.active]="selectedTab == 'world'">
+                <img class="world-img" src="/assets/world.png" (click)="selectTab('world')" alt="world">
+            </a>
+            
+            <!-- Logo de usuario -->
+            <a class="navbar-brand" [class.active]="selectedTab == 'photoUser'">
+                <img class="user-img" src="/assets/User.png" (click)="selectTab('photoUser')" alt="User">
+            </a>
+        </div>
+    </div>
+  </nav>

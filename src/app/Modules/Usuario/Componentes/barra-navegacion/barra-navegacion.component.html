@@ -1,1 +1,52 @@
-<p>barra-navegacion works!</p>
+<!-- Barra de navegación para cuenta normal -->
+<nav class="navbar">
+    <div class="container-fluid">
+        <div class="izquierda">
+            <!-- Logo de la aplicación -->
+            <a class="navbar-brand" [class.active]="selectedTab == 'logoU'">
+                <img src="/assets/LogoU.png" (click)="selectTab('logoU')" alt="Logo de TripTico">
+            </a>
+
+            <!-- Botón de A donde ir ? -->
+            <div class="nav-item" [class.active]="selectedTab == 'dondeIr'">
+                <span class="nav-link" (click)="selectTab('dondeIr')">¿A dónde ir ?</span>
+            </div>
+            
+            <!-- Botón de Experinecias  -->
+            <div class="nav-item" [class.active]="selectedTab == 'experiencias'">
+                <span class="nav-link" (click)="selectTab('experiencias')">Experiencias</span>
+            </div>
+
+            <!-- Botón de Mis Reservas  -->
+            <div class="nav-item" [class.active]="selectedTab == 'misReservas'">
+                <span class="nav-link" (click)="selectTab('misReservas')">Mis reservas</span>
+            </div>
+        </div>
+        <div class="derecha">
+            <!-- Logo de pesos "COP" -->
+            <a class="navbar-brand" [class.active]="selectedTab == 'moneda'">
+                <img class="moneda-img" src="/assets/moneda.png" (click)="selectTab('moneda')" alt="Moneda">
+            </a>
+
+            <!-- Logo de Languaje "world" -->
+            <a class="navbar-brand" [class.active]="selectedTab == 'world'">
+                <img class="world-img" src="/assets/world.png" (click)="selectTab('world')" alt="world">
+            </a>
+
+            <!-- Logo de  "Chat"-->
+            <a class="navbar-brand" [class.active]="selectedTab == 'chat'">
+                <img class="chat-img" src="/assets/chat.png" (click)="selectTab('chat')" alt="chat">
+            </a>
+
+            <!-- Logo de  Notificaciones -->
+            <a class="navbar-brand" [class.active]="selectedTab == 'noti'">
+                <img class="noti-img" src="/assets/noti.png" (click)="selectTab('noti')" alt="notificaciones">
+            </a>
+            
+            <!-- Logo de usuario -->
+            <a class="navbar-brand" [class.active]="selectedTab == 'photoUser'">
+                <img class="user-img" src="/assets/UserU.png" (click)="selectTab('photoUser')" alt="User">
+            </a>
+        </div>
+    </div>
+  </nav>
