@@ -1,1 +1,13 @@
-<h1>Dashboard</h1>
+<div class="travel-container">
+    <div class="img-container">
+        <img class="img" src="/assets/Dashboard/Image.png" alt="Img edge">
+        <div class="travel-text">Porque viajar no es como antes</div>
+    </div>
+    <div class="travel-buttons">
+      <app-pasos-navegacion [imagenUrl]="'/assets/Dashboard/explora.png'" [numero]="1" [color]="'#0047CC'" [text]="'Explora'" [numeroColor]="'#'" [textoColor]="'#ffffff'" ></app-pasos-navegacion>
+      <div class="linea-vertical"></div>
+      <app-pasos-navegacion [imagenUrl]="'/assets/Dashboard/compra.png'" [numero]="2" [color]="'#FFFFFF'" [text]="'Compra'" [numeroColor]="'#1A1A1A'" [textoColor]="'#393939'" ></app-pasos-navegacion>
+      <div class="linea-vertical"></div>
+      <app-pasos-navegacion [imagenUrl]="'/assets/Dashboard/disfruta.png'" [numero]="3" [color]="'#CF0000'" [text]="'Disfruta'" [numeroColor]="'#'" [textoColor]="'#ffffff'" ></app-pasos-navegacion>
+    </div>
+</div>

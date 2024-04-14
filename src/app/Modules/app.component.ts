@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { BarraNavegacionComponent } from './Usuario/Componentes/barra-navegacion/barra-navegacion.component';
+import { BarraNavegacionComponent } from './Autenticacion/Componentes/barra-navegacion/barra-navegacion.component';
 
 @Component({
   selector: 'app-root',
