@@ -6,14 +6,19 @@
     border : solid 1px #8080803a;
     border-radius : 10px;
     box-shadow: 0px 2px 4px #8080803a; 
+    transition: transform 0.8s ease;
   }
+
+.navbar:hover {
+    transform: scale(1.005);
+}
   
   .container-fluid {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  s
+  
   .nav-item, .navbar-brand {
     margin: 50px 50px;
     cursor: pointer;
