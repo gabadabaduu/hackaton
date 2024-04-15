@@ -60,12 +60,7 @@
 .label-up-password:hover {
     transform: scale(1.005);
 }
-.laber-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 .label1{
     font-size: 17px;
     color: #4A4A4A;
@@ -83,20 +78,6 @@
     user-select: none;
 }
 
-.label2{
-    font-size: 17px;
-    color: #4A4A4A;
-    padding-left: 12px;
-    padding-top: 8px;
-    margin-bottom: 0px;
-}
-.input2 {
-    margin-left: 10px;
-    color: #C1C1C1;
-    width: 80%;
-    border: 1px solid #F4F4F4;
-    background-color: #F4F4F4;
-}
 .label-up-checks {
     display: flex;
     flex-direction: row;

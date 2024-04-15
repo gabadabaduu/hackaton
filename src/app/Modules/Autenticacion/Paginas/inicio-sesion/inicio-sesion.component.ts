@@ -13,8 +13,14 @@ export class InicioSesionComponent {
   recordarUsuario: boolean = false;
 
   iniciarSesion() {
-    const emailInput = (document.querySelector('.input1') as HTMLInputElement).value;
-    const passwordInput = (document.querySelector('.input2') as HTMLInputElement).value;
+    const emailInput = (document.getElementById('inputEmail') as HTMLInputElement).value;
+    const passwordInput = (document.getElementById('inputPassword') as HTMLInputElement).value;
     const recordarCheckbox = (document.getElementById('remember') as HTMLInputElement).checked;
+    
+    this.email = emailInput;
+    this.password = passwordInput;
+    this.recordarUsuario = recordarCheckbox;
   }
+  
+
 }

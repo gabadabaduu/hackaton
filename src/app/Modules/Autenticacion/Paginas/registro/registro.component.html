@@ -1,1 +1,73 @@
-<h1>Registro Sesion</h1>
+<div class="registrar-empresa">
+    <h5 class="title"  [style.display]="displayContainer1">¿Eres el representante de una Empresa?</h5>
+    <a  class="forgot-password-link" [style.display]="displayContainer1" (click)="toggleContainers()">Registrar Empresa Acá</a>
+    <a  class="forgot-password-link1" [style.display]="displayContainer2" (click)="toggleContainers()">Registrate</a>
+</div>
+
+<div class="circle"></div>
+<div class="rectangle"></div>
+<div class="big-circle"></div>
+
+<div class="container-big">
+    <div class="container">
+        <div class="login-form">
+            <div class="login-title" *ngIf="displayContainer1 === 'flex'">Crea tu cuenta</div>
+            <div class="login-title1" *ngIf="displayContainer2 === 'flex'">Crea tu cuenta business</div>
+            <div class="label-container" *ngIf="displayContainer1 === 'flex'">
+                <div class="label-up-password">
+                    <h4 class="label1">Nombre Completo</h4>
+                    <input type="text" id="inputNombreCompleto" class="input1">
+                </div>
+                <div class="label-up-email">
+                    <h4 class="label1">Email</h4>
+                    <input type="email" id="inputEmail" class="input1">
+                </div>
+                <div class="label-up-password">
+                    <h4 class="label1">Contraseña</h4>
+                    <input type="password" id="inputPassword" class="input1">
+                </div>
+            </div>
+            <div class="label-container2" *ngIf="displayContainer2 === 'flex'">
+                <div class="label-up-email">
+                    <h4 class="label1">Nombre Completo Representante</h4>
+                    <input type="text" id="inputNombreCompletoRep" class="input1">
+                </div>
+                <div class="label-up-email">
+                    <h4 class="label1">NIT</h4>
+                    <input type="text" id="inputNIT" class="input1">
+                </div>
+                <div class="label-up-email">
+                    <h4 class="label1">Actividad Primaria</h4>
+                    <input type="text" id="inputActividadPrimaria" class="input1">
+                </div>
+                <div class="label-up-email">
+                    <h4 class="label1">Nombre Empresa</h4>
+                    <input type="text" id="inputNombreEmpresa" class="input1">
+                </div>
+                <div class="label-up-email">
+                    <h4 class="label1">Email</h4>
+                    <input type="email" id="inputEmailRep" class="input1">
+                </div>
+                <div class="label-up-password">
+                    <h4 class="label1">Contraseña</h4>
+                    <input type="password" id="inputPasswordRep" class="input1">
+                </div>
+            </div>
+
+            <div>
+                <button class="login-btn" (click)="Registrarse()" *ngIf="displayContainer1 === 'flex'">Registrarme</button>
+            </div>
+            <div>
+                <button class="login-btn1" (click)="Registrarse2()" *ngIf="displayContainer2 === 'flex'">Registrarme</button>
+            </div>
+            <div class="social-login" *ngIf="displayContainer1 === 'flex'">
+                <button class="google-btn"></button>
+                <button class="facebook-btn"></button>
+                <button class="twitter-btn"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container-img">
+        <img src="/assets/Registrarse/Image.png" class="logo">
+    </div>
+</div>
