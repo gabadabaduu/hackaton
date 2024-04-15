@@ -1,0 +1,252 @@
+.registrar-empresa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 17px;
+    color: #FF0000;
+}
+.forgot-password-link {
+    font-size: 17px;
+    margin-left: 20px;
+    color: #000000; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+.forgot-password-link1 {
+    margin-top: 30px;
+    margin-bottom: 27px;
+    font-size: 17px;
+    margin-left: 20px;
+    color: #000000; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container-big {
+    display: flex;
+    flex-direction: row;
+    margin-left: 12px;
+}
+.container {
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 540px;
+    height: 568px;
+    background-color: #1A1A1A;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+}
+
+.logo {
+    width: 445px;
+    height: 568px;
+}
+
+
+.login-form {
+    background-color: #1A1A1A;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.login-title{
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+.login-title1{
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: -20px;
+}
+
+
+.label-up-email {
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    width: 352px;
+    height: 52px;
+    margin: 0%;
+    transition: transform 0.4s ease;
+}
+    .label-up-email:hover {
+        transform: scale(1.005);
+    }
+.label-up-password {
+    margin-top: 20px;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    width: 352px;
+    height: 52px;
+    transition: transform 0.4s ease;
+}
+.label-up-password:hover {
+    transform: scale(1.005);
+}
+.label-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.label-container2{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.label1{
+    font-size: 17px;
+    color: #4A4A4A;
+    padding-left: 12px;
+    padding-top: 8px;
+    margin-bottom: 0px;
+    
+}
+.input1 {
+    margin-left: 10px;
+    color: #6e6d6d;
+    width: 80%;
+    border: 1px solid #F4F4F4;
+    background-color: #F4F4F4;
+    user-select: none;
+}
+
+
+.login-btn {
+    width: 359px;
+    height: 44px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 17px;
+    border : solid 2px #ff0000be;
+    box-shadow: 0px 8px 10px #ff00007c; 
+    transition: transform 0.4s ease;
+}.login-btn:hover {
+    transform: scale(1.02);
+}
+
+.login-btn1 {
+    width: 359px;
+    height: 44px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 17px;
+    border : solid 2px #ff0000be;
+    box-shadow: 0px 8px 10px #ff00007c; 
+    transition: transform 0.4s ease;
+}
+.login-btn1:hover {
+    transform: scale(1.02);
+}
+
+
+.social-login {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.facebook-btn {
+    width: 81px;
+    height: 36px;
+    background-color: #d1e3ff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-image: url('/assets/Inicio-sesion/facebook.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    transition: transform 0.4s ease;
+}
+.facebook-btn:hover {
+    transform: scale(1.09);
+}
+
+.google-btn {
+    margin-right: 10px;
+    width: 81px;
+    height: 36px;
+    background-color: #FEF1F1;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-image: url('/assets/Inicio-sesion/chrome.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    transition: transform 0.4s ease;
+}
+.google-btn:hover {
+    transform: scale(1.09);
+}
+
+.twitter-btn {
+    margin-left: 10px;
+    width: 81px;
+    height: 36px;
+    background-color: #0000002f;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-image: url('/assets/Inicio-sesion/twitter.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    transition: transform 0.4s ease;
+}
+    .twitter-btn:hover {
+        transform: scale(1.09);
+    }
+.circle {
+    position: absolute;
+    top: 30%;
+    right: -17%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    background-color: #E70000;
+    border-radius: 50%;
+}
+
+.rectangle {
+    position: absolute;
+    top: 100%;
+    right: -13%;
+    transform: translate(-50%, -50%);
+    width: 214px;
+    height: 380px;
+    border-radius: 20px;
+    background-color: #E70000;
+}
+
+.big-circle {
+    position: absolute;
+    top: 60%;
+    left: -2%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 450px;
+    background-color: #E70000;
+    border-radius: 50%;
+}
