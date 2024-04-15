@@ -9,6 +9,7 @@ import { ExperienciasComponent } from './Modules/Usuario/Paginas/experiencias/ex
 import { MisReservasComponent } from './Modules/Usuario/Paginas/mis-reservas/mis-reservas.component';
 
 export const routes: Routes = [
+    { path: '', redirectTo: '/app-dashboard', pathMatch: 'full' },
     { path : 'inicio-sesion', component: InicioSesionComponent},
     { path : 'app-registro', component: RegistroComponent},
     { path : 'app-dashboard', component: DashboardComponent},
