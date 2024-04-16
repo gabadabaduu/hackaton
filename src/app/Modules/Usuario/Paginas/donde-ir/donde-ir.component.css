@@ -1,0 +1,127 @@
+.img1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.img{
+    width: 886px;
+    height: 440px;
+    border-radius: 15px;
+    transition: transform 0.6s ease;
+}
+.img:hover {
+    transform: scale(1.02);
+}
+
+.travel-text{
+    position: absolute;
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+.sub1{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.places{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.imgT{
+    border-radius: 15px;
+    transition: transform 0.6s ease;
+}
+.sub2{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.img2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 20px;
+}
+.imgD{ 
+    width: 476px;
+    height: 526px;
+    border-radius: 22px;
+}
+
+.imgQ{
+    width: 360px;
+    height: 112px;
+    position: absolute;
+    top: 175%; 
+    left: 5%; 
+    transform: translate(100%, 100%);
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+.imgN{
+    width: 300px;
+    height: 112px;
+    position: absolute;
+    top: 140%;
+    left: 42%; 
+    transform: translate(100%, 100%);
+    font-size: 40px;
+    color: white;
+    text-align: right;
+    
+}
+.text1{
+    font-size: 24px;
+}
+.text2{
+    font-size: 24px;
+}
+.experience {
+    position: absolute;
+    top: 191%;
+    left: 26%; 
+    transform: translate(100%, 100%);
+    padding: 9px 16px;
+    background-color: white;
+    border: none;
+    color: #333333;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.experienceon {
+    position: absolute;
+    top: 161%;
+    left: 62%; 
+    transform: translate(100%, 100%);
+    padding: 9px 16px;
+    background-color: white;
+    border: none;
+    color: #333333;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+}
