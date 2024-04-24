@@ -1,0 +1,53 @@
+<div class="nombre-container">
+
+    <span class="nombre">{{ nombre }}</span>  
+    <div class="container-rating">
+        <span class="icon"></span>
+        <span class="estrellas">{{ estrellas }}</span>
+    </div>
+</div>
+
+<div class="pothos-container">
+    <div class="big">
+        <img class="img1" src="{{ img1 }}" alt="Img edge">
+    </div>
+    <div class="rigth">
+        <div class="small">
+            <img class="img" src="{{ img2 }}" alt="Img edge">
+        </div>
+        <div class="small">
+            <img class="img" src="{{ img3 }}" alt="Img edge">
+        </div>
+        <div class="small">
+            <img class="img" src="{{ img4 }}" alt="Img edge">
+        </div>
+    </div>
+</div>
+<div class="set">
+    <div class="ticket-seter">
+        <div class="ticket-container">
+            <span class="nombre-tiquete">{{ nombre }}</span>
+            <span class="tipo"> 1 Ticket (ADULTO) </span>
+            <span class="precio-tiquete">{{ precio }}</span>
+        </div>
+    </div>
+    <div class="ticket-pay">
+        <div class="header">
+        <div class="price">${{ precio }}</div>
+        <div class="container-rating">
+            <span class="icon"></span>
+            <span class="estrellas">{{ estrellas }}</span>
+        </div>
+        </div>
+        <div class="content">
+        <div class="date">Fecha para el ticket</div>
+        <input type="text" class="date-input" value='{{fecha}}'>
+        </div>
+        <hr>
+        <div class="header">
+            <div class="total">Total</div>
+            <div class="price-total">${{ precio }}</div>
+        </div>
+        <button class="pay-button">Pagar</button>
+        </div>
+</div>

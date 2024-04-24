@@ -14,21 +14,25 @@
         [imageSrc]="'/assets/donde-ir/museo-oro.png'" 
         [placeText]="'Museo del Oro - Bogota'" 
         [moneyText]="'$50000'"
+        (cardClicked)="verDetalles(1)"
         ></app-card>
         <app-card 
         [imageSrc]="'/assets/donde-ir/cataratas.png'" 
         [placeText]="'Catarata La Fortuna'" 
         [moneyText]="'$150000'"
+        (cardClicked)="verDetalles(2)"
         ></app-card>
         <app-card 
         [imageSrc]="'/assets/donde-ir/museo-nacional.png'" 
         [placeText]="'Museo Nacional'" 
         [moneyText]="'$40000'"
+        (cardClicked)="verDetalles(3)"
         ></app-card>
         <app-card 
         [imageSrc]="'/assets/donde-ir/volcan.png'" 
         [placeText]="'Volcán Arenal'" 
         [moneyText]="'$50000'"
+        (cardClicked)="verDetalles(4)"
         ></app-card>
     </div>
     <div class="sub2">
