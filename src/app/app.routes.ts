@@ -7,6 +7,7 @@ import { MisGananciasComponent } from './Modules/Empresa/Paginas/mis-ganancias/m
 import { DondeIrComponent } from './Modules/Usuario/Paginas/donde-ir/donde-ir.component';
 import { ExperienciasComponent } from './Modules/Usuario/Paginas/experiencias/experiencias.component';
 import { MisReservasComponent } from './Modules/Usuario/Paginas/mis-reservas/mis-reservas.component';
+import { DetallesComponent } from './Modules/Usuario/Paginas/detalles/detalles.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/app-dashboard', pathMatch: 'full' },
@@ -18,4 +19,5 @@ export const routes: Routes = [
     { path : 'app-donde-ir', component: DondeIrComponent},
     { path : 'app-experiencias', component: ExperienciasComponent},
     { path : 'app-mis-reservas', component: MisReservasComponent},
+    { path: 'app-detalles', component: DetallesComponent },
 ];
