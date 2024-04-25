@@ -3,20 +3,20 @@ import { ActivatedRoute } from '@angular/router';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-detalles',
+  selector: 'app-checkout',
   standalone: true,
   imports: [],
-  templateUrl: './detalles.component.html',
-  styleUrl: './detalles.component.css'
+  templateUrl: './checkout.component.html',
+  styleUrl: './checkout.component.css'
 })
-export class DetallesComponent implements OnInit {
+export class CheckoutComponent implements OnInit {
   id: number | undefined;
   nombre: string = "";
-  estrellas: string = "";
+  detalles1: string = "";
+  detalles2: string = "";
+  detallesprecio1: string = "";
+  detallesprecio2: string = "";
   img1: string = "";
-  img2: string = "";
-  img3: string = "";
-  img4: string = "";
   precio: string = "";
   fecha: string = "";
 
@@ -26,27 +26,21 @@ export class DetallesComponent implements OnInit {
     this.id = +this.route.snapshot.queryParams['id'];
     if (this.id === 1) {
       this.nombre = "Museo del Oro - Bogotá";
-      this.estrellas = "4.84";
-      this.img1 = '/assets/Detalles/Image1.png';
-      this.img2 = '/assets/Detalles/Image2.png';
-      this.img3 = '/assets/Detalles/Image3.png';
-      this.img4 = '/assets/Detalles/Image4.png';
+      this.img1 = '/assets/checkout/Image1.png';
       this.precio = "40,000 COP";
       this.fecha = "21/07/2023";
+      this.detalles1 = "Entrada-Tiquete Museo Nacional"
+      this.detalles2 = "impuestos"
+      this.detallesprecio1 = "$33.613"
+      this.detallesprecio2 = "$6.387"
 
     }else if (this.id === 2) {
       this.nombre = "Catarata La Fortuna - Costa Rica";
-      this.estrellas = "5";
     }else if (this.id === 3) {
       this.nombre = "Museo Nacional- Bogotá";
-      this.estrellas = "5";
     }else if (this.id === 4) {
       this.nombre = "Volcan Arenal - Costa Rica";
-      this.estrellas = "5";
     }
   }
-  verDetalles(id: number) {
-    this.router.navigate(['/app-checkout'], { queryParams: { id: id } });
-  }
-   
+  
 }
