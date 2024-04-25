@@ -1,0 +1,77 @@
+<div class="main">
+    <div class="izquierda">
+        <div class="title">Confirmar y Pagar </div>
+        <div class="FP">
+            <div class="ticket-header">
+                Tu ticket :
+            </div>
+            <div class="ticket">
+                <div class="detail">
+                    <div class="label">Fecha</div>
+                    <div class="value">{{ fecha }}</div>
+                </div>
+                <div class="detail">
+                    <div class="label">Personas</div>
+                    <div class="value">1 persona</div>
+                </div>
+            </div>
+        </div>
+        <div class="payment-container">
+            <div class="title2">
+                Pagar con:
+            </div>
+            <div class="form-group">
+                <input type="text" class="input-field" placeholder="Numero de Tarjeta">
+            </div>
+            <div class="form-group">
+                <input type="text" class="input-field" placeholder="Nombre de la Tarjeta">
+            </div>
+            <div class="horizontal-group">
+                <div class="form-group2">
+                    <input type="text" class="input-field2" placeholder="Fecha de vencimiento">
+                </div>
+                <div class="form-group2">
+                    <input type="text" class="input-field2" placeholder="CVV">
+                </div>
+            </div>
+            <div class="agreement">
+                <input type="checkbox" id="agree-checkbox">
+                <label class="agree-checkbox" for="agree-checkbox">Guardar para el futuro</label>
+                <div class="separator"></div>
+                <p class="terms">By selecting the button below, I agree to the Property Rules, Terms and Conditions, Privacy Policy and COVID-19 Safety Requirements.</p>
+                <button class="pay-button" >Confirmar y Pagar</button>
+            </div>
+        </div>
+    </div>
+    <div class="derecha">
+        <div class="experiencia">
+            <div class="experiencia-text"> MIRA UN PREVIEW DE LA EXPERIENCIA 360</div>
+            <img  src="{{ img1 }}"  alt="Imagen de la experiencia 360">
+        </div>
+        <div class="ticket-label">
+            <div class="ticket-seter">
+                <div class="ticket-container">
+                    <span class="nombre-tiquete">{{ nombre }}</span>
+                    <span class="tipo"> 1 Ticket (ADULTO) </span>
+                    <span class="precio-tiquete">{{ precio }}</span>
+                </div>
+            </div>
+            <div class="ticket-pay">
+                <div class="text-deta">Detalles precio</div>
+                <div class="header2">
+                    <div class="input">{{ detalles1 }}</div>
+                    <div class="price-input">{{ detallesprecio1 }}</div>
+                </div>
+                <div class="header2">
+                    <div class="input">{{ detalles2 }}</div>
+                    <div class="price-input">{{ detallesprecio2 }}</div>
+                </div>
+                <hr>
+                <div class="header">
+                    <div class="total">Total</div>
+                    <div class="price-total">${{ precio }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

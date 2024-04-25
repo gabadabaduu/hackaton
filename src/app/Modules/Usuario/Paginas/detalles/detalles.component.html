@@ -40,14 +40,14 @@
         </div>
         </div>
         <div class="content">
-        <div class="date">Fecha para el ticket</div>
-        <input type="text" class="date-input" value='{{fecha}}'>
+            <div class="date">Fecha para el ticket</div>
+            <input type="text" class="date-input" value='{{fecha}}'>
         </div>
         <hr>
         <div class="header">
             <div class="total">Total</div>
             <div class="price-total">${{ precio }}</div>
         </div>
-        <button class="pay-button">Pagar</button>
-        </div>
+        <button class="pay-button" (click)="verDetalles(id || 0)">Pagar</button>
+    </div>
 </div>

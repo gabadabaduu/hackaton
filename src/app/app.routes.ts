@@ -8,6 +8,7 @@ import { DondeIrComponent } from './Modules/Usuario/Paginas/donde-ir/donde-ir.co
 import { ExperienciasComponent } from './Modules/Usuario/Paginas/experiencias/experiencias.component';
 import { MisReservasComponent } from './Modules/Usuario/Paginas/mis-reservas/mis-reservas.component';
 import { DetallesComponent } from './Modules/Usuario/Paginas/detalles/detalles.component';
+import { CheckoutComponent } from './Modules/Usuario/Paginas/checkout/checkout.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/app-dashboard', pathMatch: 'full' },
@@ -20,4 +21,6 @@ export const routes: Routes = [
     { path : 'app-experiencias', component: ExperienciasComponent},
     { path : 'app-mis-reservas', component: MisReservasComponent},
     { path: 'app-detalles', component: DetallesComponent },
+    { path: 'app-checkout', component: CheckoutComponent },
+    
 ];
