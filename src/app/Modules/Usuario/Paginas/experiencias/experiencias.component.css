@@ -1,0 +1,24 @@
+.izq{
+    margin-right: 100px;
+}
+.text{
+    width: 400px;
+    height: 145px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.experiencia {
+    width: 900px;
+    height: 650px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 35px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.39); 
+    border-color: #ccc;
+    text-align: center;
+  }
