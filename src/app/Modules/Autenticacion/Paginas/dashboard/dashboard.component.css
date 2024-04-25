@@ -1,11 +1,15 @@
 .travel-container{
     position: relative;
     height: 100vh;
+    display : flex;
+    align-items: center;
+    justify-content: center;
 }
 .img-container{
     position: absolute;
-    top: 6%;
-    left: 13%;  
+    top: 6%; 
+    align-items: center;
+    justify-content: center;
 }
 .img{
     border-radius: 15px;
@@ -26,12 +30,10 @@
 }
 .travel-buttons {
     position: absolute;
-    top: 70%; 
-    left: 52%; 
-    transform: translate(-50%, -50%);
     display: flex;
     justify-content: space-between;
     width: 70%; 
+    top: 60%;
   }
   .linea-vertical {
     top: 100px;
@@ -40,4 +42,63 @@
     background-color: #999; 
     margin-top: 50px;
     
+}
+
+/*responsive*/
+
+/* Estilos para tabletas (pantallas de 768px a 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .travel-container{
+        height: 100vh;
+        display : flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img{
+        height: 60%;
+    }
+    .travel-text{
+        font-size: 35px;
+        align-items: center;
+        width: 100%;
+        top: 68%;
+    }
+    .travel-buttons {
+        flex-wrap: wrap;
+        top: 25%;
+        justify-content: center;
+        width: 60%; 
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+/* Estilos para móviles (pantallas menores a 768px) */
+@media (max-width: 767px) {
+    .travel-container{
+        height: 100vh;
+        display : flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img{
+        height: 130px;
+        width: 100%;
+    }
+    .travel-text{
+        font-size: 35px;
+        align-items: center;
+        width: 100%;
+        top: 68%;
+    }
+    .travel-buttons {
+        flex-wrap: wrap;
+        top: 30%;
+        justify-content: center;
+        width: 60%; 
+    }
+    .hide-on-mobile {
+        display: none;
+    }
 }
