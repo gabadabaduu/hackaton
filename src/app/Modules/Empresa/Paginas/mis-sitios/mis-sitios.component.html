@@ -1,1 +1,54 @@
-<p>mis-sitios works!</p>
+<div class="big-container">
+    <div class="container-descripcion">
+        <div class="imagenes">
+            <div class="pothos-container">
+                <div class="big">
+                    <img class="img" src="/assets/Mis-sitios/Img1.png" alt="Img edge">
+                </div>
+                <div class="rigth">
+                    <div class="small">
+                        <img class="img" src="/assets/Mis-sitios/Img2.png" alt="Img edge">
+                    </div>
+                    <div class="small">
+                        <img class="img" src="/assets/Mis-sitios/Img3.png" alt="Img edge">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="descripcion-texto">
+            <div class="ticket-info hide-on-mobile">
+                <div class="ticket-info">
+                    <span class="nombre-tiquete">Museo Nacional - Bogota</span>
+                </div>
+                <div class="ticket-info">
+                    <span class="titulo-tiquete">$40.000 cop - 1 boleta</span>
+                </div>
+                <div class="ticket-info">
+                    <span class="titulo-tiquete">555 Tickets vendidos</span>
+                </div>
+                <div class="disponible">
+                    <button class="boton-disponible" [ngStyle]="disponibleStyle" (click)="toggleButtons('disponible')">Disponible</button>
+                    <button class="boton-desactivar" [ngStyle]="desactivarStyle" (click)="toggleButtons('desactivar')">Desactivar</button>
+                  </div>
+            </div>
+        </div>
+        <div class="ventas">
+            <div class="ventas-container">
+                <div>
+                    <div class="ventas-text">Ventas</div>
+                    <div class="num-text">$3.2M</div>
+                    <div class="num-num">5.39%</div>
+                    
+                </div>
+                <div>
+                    <img class="img1" src="/assets/Mis-sitios/chart.png" alt="Img edge">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container-agregar">
+        <span class="plus">+</span>
+        <span class="text-plus">Añadir otro sitio turístico</span>
+    </div>
+</div>
