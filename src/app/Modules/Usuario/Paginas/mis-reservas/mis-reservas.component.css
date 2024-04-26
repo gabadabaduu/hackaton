@@ -12,7 +12,6 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.39); 
     border-color: #ccc;
 }
-
 .head{
     margin-top: 35px;
     margin-left: 45px;
@@ -28,8 +27,6 @@
     margin-bottom: 15px;
     color: #979797;
 }
-
-
 .ticket-info{
     display: flex;
     flex-direction: column;
@@ -49,7 +46,7 @@
     
   }
   
-  .ticket-container {
+.ticket-container {
     padding-left: 170px;
     background-image: url('/assets/Detalles/ticket.png');
     background-size: cover; 
@@ -93,4 +90,51 @@
 
 .ticket-container .precio-tiquete {
     font-size: 23px; 
+}
+
+
+/*responsive*/
+
+/* Estilos para tabletas (pantallas de 768px a 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .head{
+        font-size: 26px;
+    }
+    .head2{
+        flex-wrap: wrap;
+    }
+    .container{
+        width: 750px;
+        height: 300px;
+    }
+    .ticket-seter {
+        justify-items: center;
+        align-items: center;
+        
+    }
+}
+
+/* Estilos para móviles (pantallas menores a 768px) */
+@media (max-width: 767px) {
+    .head{
+        margin-left: 0px;
+        font-size: 26px;
+    }
+    .head2{
+        margin-left: 0px;
+        flex-wrap: wrap;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .container{
+        width: 310px;
+        height: 300px;
+        margin-left: 10px;
+    }
+    .ticket-container {
+        width: 370px;
+        height: 300px;
+        transform: translate(-35px, 0px);
+    }
 }
