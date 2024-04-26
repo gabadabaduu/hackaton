@@ -70,10 +70,10 @@
         height: 60px;
     }
     .nav-link {
-        font-size: 12px;
+        font-size: 25px;
     }
     .nav-item, .navbar-brand {
-        margin: 0 4px; 
+        margin: 0 15px; 
     }
 }
 
@@ -85,7 +85,7 @@
         height: 60px;
     }
     .nav-link {
-        font-size: 12px;
+        font-size: 15px;
     }
     .nav-item, .navbar-brand {
         margin: 0 4px; 
