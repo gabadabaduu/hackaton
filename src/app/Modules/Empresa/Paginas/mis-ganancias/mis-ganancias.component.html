@@ -1,1 +1,111 @@
-<p>mis-ganancias works!</p>
+<div class="container-disponible1">
+    <div class="flex-disponible">
+        <div class="disp-num">
+            <div class="text-disp">Disponible:</div>
+            <div class="text-num">$104.567.800</div>    
+        </div>
+        <div class="boton">
+            <div class="disponible">
+                <button class="boton-disponible" [ngStyle]="disponibleStyle" (click)="toggleButtons('disponible')">Retiro Automático</button>
+                <button class="boton-desactivar" [ngStyle]="desactivarStyle" (click)="toggleButtons('desactivar')">No retirar</button>
+              </div>
+        </div>
+        <div class="img-chart">
+            <img src="assets/Mis-ganancias/chart.png" alt="chart">
+        </div>
+    </div>
+</div>
+<div class="texto">
+    <div class="text-transacciones">Transacciones:</div>
+    <div class="text-hoy">Hoy:</div>
+</div>
+<div class="transacciones">
+    <div class="container-disponible2">
+        <div class="flex-trans"  data-color="#FF0000">
+            <div class="img-logo">
+                <img src="assets/Mis-ganancias/logo.png" alt="chart">
+            </div>
+            <div class="trans-num">
+                <div class="numero">
+                    -$4.800
+                </div>
+            </div>
+            <div class="trans-clas">
+                <div class="trans-text">
+                    Comisión plataforma 12%
+                </div>
+            </div>
+            <div class="trans-more">
+                <div class="trans-src">
+                    Ver más detalles
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-disponible2">
+        <div class="flex-trans"  data-color="#88FF00">
+            <div class="img-logo">
+                <img src="assets/Mis-ganancias/usuario.png" alt="chart">
+            </div>
+            <div class="trans-num">
+                <div class="numero">
+                    +$40.000
+                </div>
+            </div>
+            <div class="trans-clas">
+                <div class="trans-text">
+                    1 X Entrada - Museo Nacional
+                </div>
+            </div>
+            <div class="trans-more">
+                <div class="trans-src">
+                    Ver más detalles
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-disponible2">
+        <div class="flex-trans"  data-color="#FF0000">
+            <div class="img-logo">
+                <img src="assets/Mis-ganancias/logo.png" alt="chart">
+            </div>
+            <div class="trans-num">
+                <div class="numero">
+                    -$19.200
+                </div>
+            </div>
+            <div class="trans-clas">
+                <div class="trans-text">
+                    Comisión plataforma 12%
+                </div>
+            </div>
+            <div class="trans-more">
+                <div class="trans-src">
+                    Ver más detalles
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-disponible2">
+        <div class="flex-trans" data-color="#88FF00">
+            <div class="img-logo">
+                <img src="assets/Mis-ganancias/usuario2.png" alt="chart">
+            </div>
+            <div class="trans-num">
+                <div class="numero">
+                    +$160.000
+                </div>
+            </div>
+            <div class="trans-clas">
+                <div class="trans-text">
+                    4 X Entrada - Museo Nacional
+                </div>
+            </div>
+            <div class="trans-more">
+                <div class="trans-src">
+                    Ver más detalles
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
