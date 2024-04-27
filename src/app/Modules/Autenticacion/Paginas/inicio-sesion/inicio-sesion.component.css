@@ -15,7 +15,7 @@
 }
 
 .title {
-    margin-left: 600px;
+    margin-left: 35%;
     margin-top: 40px;
     margin-bottom: 55px;
     font-size: 32px;
@@ -36,6 +36,7 @@
     font-size: 32px;
     color: #1A1A1A;
     margin-bottom: 28px;
+    font-weight: bold;
 }
 
 .label-up-email {
@@ -174,27 +175,29 @@
     .twitter-btn:hover {
         transform: scale(1.09);
     }
-.circle {
-    position: absolute;
-    top: 30%;
-    right: -17%;
-    transform: translate(-50%, -50%);
-    width: 250px;
-    height: 250px;
-    background-color: #E70000;
-    border-radius: 50%;
-}
-
-.rectangle {
-    position: absolute;
-    top: 100%;
-    right: -13%;
-    transform: translate(-50%, -50%);
-    width: 214px;
-    height: 380px;
-    border-radius: 20px;
-    background-color: #E70000;
-}
+    .circle {
+        position: absolute;
+        top: 30%;
+        right: -60px;
+        transform: translate(-50%, -50%);
+        width: 250px;
+        height: 125px;
+        background-color: #E70000;
+        border-radius: 125px 125px 0 0;
+        overflow: hidden;
+        transform: rotate(270deg);
+    }
+    
+    .rectangle {
+        position: absolute;
+        top: 100%;
+        right: -50px;
+        transform: translate(-50%, -50%);
+        width: 107px;
+        height: 380px;
+        border-radius: 25px 0 0 25px;
+        background-color: #E70000;
+    }
 
 .big-circle {
     position: absolute;
@@ -205,4 +208,82 @@
     height: 450px;
     background-color: #E70000;
     border-radius: 50%;
+}
+
+/*responsive*/
+
+/* Estilos para tabletas (pantallas de 768px a 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .login-title{
+        font-weight: bold;
+    }
+    .container{
+        margin-top: 200px;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .login-form {
+        width: 90%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+    }
+    .logo {
+        width: 400px;
+        height: 450px;
+        margin-top: 170px;
+        border-radius: 50%;
+    }
+}
+
+/* Estilos para móviles (pantallas menores a 768px) */
+@media (max-width: 767px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .login-title{
+        font-weight: bold;
+    }
+    .container{
+        margin-top: 200px;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .login-form {
+        width: 90%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+    }
+    .logo {
+        width: 400px;
+        height: 450px;
+        margin-top: 170px;
+        border-radius: 50%;
+    }
+    .login-btn {
+        width: 200px;
+    }
+    .label-up-email {
+        width: 300px;
+    }
+    .label-up-password {
+        width: 300px;
+    }
+
 }
