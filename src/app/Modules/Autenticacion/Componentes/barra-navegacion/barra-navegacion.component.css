@@ -31,4 +31,36 @@
   }
   .nav-item.active .nav-link{
     color : rgb(255, 0, 0)
+  }.logo{
+    width: 300px;
   }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        height: 60px;
+    }
+    .nav-link {
+        font-size: 25px;
+    }
+    .nav-item, .navbar-brand {
+        margin: 0 15px; 
+    }
+    .logo{
+      width: 150px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        height: 60px;
+    }
+    .nav-link {
+        font-size: 15px;
+    }
+    .nav-item, .navbar-brand {
+        margin: 0 4px; 
+    }
+    .logo{
+      width: 150px;
+    }
+}
