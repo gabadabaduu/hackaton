@@ -1,5 +1,5 @@
 .izq{
-    margin-right: 100px;
+    margin-right: 60px;
 }
 .text{
     width: 400px;
@@ -35,7 +35,7 @@
   /*responsive*/
 
 /* Estilos para tabletas (pantallas de 768px a 1024px) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1450px) {
     .izq{
         margin-right: 0px;
         justify-content: space-between;
@@ -52,12 +52,12 @@
         transform: translate(-70px, -190px);
     }
     .exp1 {
-        width: 500px;
+        width: 650px;
         height: 700px;
     }
     .experiencia{
         transform: translate(0px, -60px);
-        width: 500px;
+        width: 650px;
         height: 700px;
     }
     .container{
@@ -86,12 +86,12 @@
         transform: translate(-70px, -170px);
     }
     .exp1 {
-        width: 300px;
+        width: 270px;
         height: 500px;
     }
     .experiencia{
         transform: translate(0px, -95px);
-        width: 300px;
+        width: 270px;
         height: 500px;
     }
     .container{
