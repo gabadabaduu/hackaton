@@ -19,12 +19,12 @@
         </div>
         <div class="derecha">
             <!-- Logo de pesos "COP" -->
-            <a class="navbar-brand" [class.active]="selectedTab == 'moneda'">
+            <a class="navbar-brand hide-on-mobile" [class.active]="selectedTab == 'moneda'">
                 <img class="moneda-img" src="/assets/barras-navegacion/moneda.png" (click)="selectTab('moneda')" alt="Moneda">
             </a>
 
             <!-- Logo de Languaje "world" -->
-            <a class="navbar-brand" [class.active]="selectedTab == 'world'">
+            <a class="navbar-brand hide-on-mobile" [class.active]="selectedTab == 'world'">
                 <img class="world-img" src="/assets/barras-navegacion/world.png" (click)="selectTab('world')" alt="world">
             </a>
             
