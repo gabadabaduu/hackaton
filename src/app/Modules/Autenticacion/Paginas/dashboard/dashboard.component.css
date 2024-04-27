@@ -18,13 +18,12 @@
 .img:hover {
     transform: scale(1.02);
 }
-  
 .travel-text{
     position: absolute;
-    top: 80%; 
+    top: 20%; 
     left: 50%; 
     transform: translate(-50%, -50%);
-    font-size: 32px;
+    font-size: 45px;
     color: white;
     text-align: center;
 }
@@ -55,7 +54,7 @@
         justify-content: center;
     }
     .img{
-        height: 60%;
+        transform: scale(0.6);
     }
     .travel-text{
         font-size: 35px;
@@ -65,7 +64,7 @@
     }
     .travel-buttons {
         flex-wrap: wrap;
-        top: 25%;
+        top: 40%;
         justify-content: center;
         width: 60%; 
     }
