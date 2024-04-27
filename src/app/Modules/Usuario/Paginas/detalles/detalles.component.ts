@@ -44,7 +44,7 @@ export class DetallesComponent implements OnInit {
       this.fecha = "21/07/2023";
     }else if (this.id === 3) {
       this.nombre = "Museo Nacional- Bogotá";
-      this.estrellas = "5";
+      this.estrellas = "4.5";
       this.img1 = '/assets/Detalles/Image1.png';
       this.img2 = '/assets/Detalles/Image2.png';
       this.img3 = '/assets/Detalles/Image3.png';
