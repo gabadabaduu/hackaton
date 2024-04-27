@@ -29,18 +29,42 @@ export class CheckoutComponent implements OnInit {
       this.img1 = '/assets/checkout/Image1.png';
       this.precio = "40,000 COP";
       this.fecha = "21/07/2023";
-      this.detalles1 = "Entrada-Tiquete Museo Nacional"
+      this.detalles1 = "Entrada-Tiquete Museo del Oro"
       this.detalles2 = "impuestos"
       this.detallesprecio1 = "$33.613"
       this.detallesprecio2 = "$6.387"
 
     }else if (this.id === 2) {
       this.nombre = "Catarata La Fortuna - Costa Rica";
+      this.img1 = '/assets/checkout/Image1.png';
+      this.precio = "80,000 COP";
+      this.fecha = "21/07/2023";
+      this.detalles1 = "Entrada-Tiquete Catarata la Fortuna"
+      this.detalles2 = "impuestos"
+      this.detallesprecio1 = "$73.613"
+      this.detallesprecio2 = "$6.387"
     }else if (this.id === 3) {
       this.nombre = "Museo Nacional- Bogotá";
+      this.img1 = '/assets/checkout/Image1.png';
+      this.precio = "8,000 COP";
+      this.fecha = "21/07/2023";
+      this.detalles1 = "Entrada-Tiquete Museo Nacional"
+      this.detalles2 = "impuestos"
+      this.detallesprecio1 = "$6.000"
+      this.detallesprecio2 = "$2.000"
     }else if (this.id === 4) {
       this.nombre = "Volcan Arenal - Costa Rica";
+      this.img1 = '/assets/checkout/Image1.png';
+      this.precio = "60,000 COP";
+      this.fecha = "21/07/2023";
+      this.detalles1 = "Entrada-Tiquete Volcan Arenal"
+      this.detalles2 = "impuestos"
+      this.detallesprecio1 = "$60.000"
+      this.detallesprecio2 = "$4.000"
     }
+  }
+  irExperiencias() {
+    this.router.navigate(['/app-experiencias']);
   }
   
 }
