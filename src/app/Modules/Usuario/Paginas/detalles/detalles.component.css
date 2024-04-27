@@ -51,11 +51,25 @@
   width: 279px;
   height: 217px;
   object-fit: cover;
+  border-top-right-radius: 15px;
 } 
-.img1 {
+.img3 {
+  width: 279px;
+  height: 217px;
+  object-fit: cover;
+  border-bottom-right-radius: 15px;
+} 
+.img2 {
+  width: 279px;
+  height: 217px;
+  object-fit: cover;
+} 
+.img1  {
   width: 889px;
   height: 668px;
   object-fit: cover;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 .set{
   display: flex;
@@ -268,7 +282,7 @@ hr {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
   }
-  .img {
+  .img, .img3, .img2 {
     width: 139px;
     height: 108px;
     object-fit: cover;
