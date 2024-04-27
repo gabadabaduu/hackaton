@@ -85,9 +85,9 @@
         height: 60px;
     }
     .nav-link {
-        font-size: 15px;
+        font-size: 13px;
     }
     .nav-item, .navbar-brand {
-        margin: 0 4px; 
+        margin: 0 6px; 
     }
 }

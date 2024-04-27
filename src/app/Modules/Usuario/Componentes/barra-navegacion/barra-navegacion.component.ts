@@ -24,6 +24,8 @@ export class BarraNavegacionComponent {
     if(tab== 'misReservas'){
       this.router.navigate(['/app-mis-reservas']);
     }
-
+    if(tab== 'photoUser'){
+      this.router.navigate(['/app-dashboard']);
+    }
   }
 }
