@@ -40,7 +40,7 @@
     align-items: center; 
     margin-left: 45px;
     margin-top: 30px;
-    width: 280px;
+    width: 70%;
     height: 90px;
     border: 1px solid #ccc;
     border-radius: 30px;
@@ -65,12 +65,12 @@
     align-items: center; 
     margin-left: 90px;
     margin-top: 30px;
-    width: 1380px;
+    width: 85%;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 30px;
     padding: 35px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.39); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.39); 
     border-color: #ccc;
 }
 .container-agregar{
@@ -80,7 +80,7 @@
     align-items: center; 
     margin-left: 90px;
     margin-top: 30px;
-    width: 1380px;
+    width: 85%;
     height: 250px;
     border: 1px solid #ccc;
     border-radius: 30px;
@@ -148,4 +148,130 @@
 
 .boton-disponible:active, .boton-desactivar:active {
     background-color: lighten(#00EE4F, 10%); /* Aclara el fondo al hacer clic */
+}
+.ventas{
+    transform: scale(0.7);
+    margin-left: -100px;
+}
+
+/* Estilos para tabletas */
+@media (min-width: 754px) and (max-width: 1392px) {
+    .big-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-descripcion {
+        width: 75%;
+        height: 700px;
+        margin-left: 0px;
+        top: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-agregar {
+        width: 75%;
+        margin-left: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .plus {
+        font-size: 80px;
+    }
+    .text-plus {
+        font-size: 80px;
+    }
+    .ticket-info {
+        margin-left: 1%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        margin-left: 0px;
+    }
+    .imagenes {
+        scale: 1;
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+    .disponible {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .ventas {
+        margin-left: 0px;
+        margin-top: -50px;
+    }
+    .ventas-container {
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    .descripcion-texto {
+        margin-left: 0px;
+    }
+}
+
+/* Estilos para móviles (pantallas menores a 768px) */
+@media (max-width: 753px) {
+    .big-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-descripcion {
+        width: 75%;
+        height: 700px;
+        margin-left: 0px;
+        top: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-agregar {
+        width: 75%;
+        margin-left: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .plus {
+        font-size: 40px;
+    }
+    .text-plus {
+        font-size: 40px;
+    }
+    .ticket-info {
+        margin-left: 7px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        margin-left: 40px;
+        width: 240px;
+    }
+    .nombre-tiquete, .titulo-tiquete{
+        font-size: 17px;
+    }
+    .imagenes {
+        scale: 52%;
+        margin-bottom: 5px;
+    }
+    .disponible {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .ventas {
+        margin-left: 0px;
+        margin-top: -50px;
+    }
+    .ventas-container {
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    .descripcion-texto {
+        margin-left: 0px;
+        margin-top: -50px;
+    }
 }
