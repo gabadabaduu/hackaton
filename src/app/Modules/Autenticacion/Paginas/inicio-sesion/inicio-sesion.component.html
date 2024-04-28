@@ -1,4 +1,11 @@
 <app-barra-navegacion></app-barra-navegacion>
+<div *ngIf="isVisible" class="notification-container">
+    <div class="notification">
+      <span class="mensaje1">{{ notifications[currentIndex].mensaje1 }}</span>
+      <span class="mensaje2">{{ notifications[currentIndex].mensaje2 }}</span>
+      <span class="mensaje3">{{ notifications[currentIndex].mensaje3 }}</span>
+    </div>
+  </div>
 <h1 class="title hide-on-mobile">¡La nueva forma de planear tu viaje!</h1>
 <div class="circle hide-on-mobile"></div>
 <div class="rectangle hide-on-mobile"></div>
@@ -21,7 +28,7 @@
                 <input type="checkbox" id="remember">
                 <label for="remember" class="label">Recordarme</label>
             </div>
-            <a href="#" class="forgot-password-link">¿Olvidaste tu contraseña?</a>
+            <a class="forgot-password-link">¿Olvidaste tu contraseña?</a>
         </div>
         <div>
             <button class="login-btn" (click)="iniciarSesion()">Iniciar sesión</button>

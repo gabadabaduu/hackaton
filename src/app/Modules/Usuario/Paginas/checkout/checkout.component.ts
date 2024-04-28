@@ -37,7 +37,7 @@ export class CheckoutComponent implements OnInit {
       this.detallesprecio2 = "$6.387"
 
     }else if (this.id === 2) {
-      this.nombre = "Catarata La Fortuna - Costa Rica";
+      this.nombre = "Cataratas - Costa Rica";
       this.img1 = '/assets/checkout/Image1.png';
       this.precio = "80,000 COP";
       this.fecha = "21/07/2023";
@@ -46,7 +46,7 @@ export class CheckoutComponent implements OnInit {
       this.detallesprecio1 = "$73.613"
       this.detallesprecio2 = "$6.387"
     }else if (this.id === 3) {
-      this.nombre = "Museo Nacional- Bogotá";
+      this.nombre = "Museo Nacional-Bogotá";
       this.img1 = '/assets/checkout/Image1.png';
       this.precio = "8,000 COP";
       this.fecha = "21/07/2023";

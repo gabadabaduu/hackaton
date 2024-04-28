@@ -36,7 +36,7 @@ export class DetallesComponent implements OnInit {
       this.precio = "40,000 COP";
       this.fecha = "21/07/2023";
     }else if (this.id === 2) {
-      this.nombre = "Catarata La Fortuna - Costa Rica";
+      this.nombre = "La Fortuna - Costa Rica";
       this.estrellas = "5";
       this.img1 = '/assets/Detalles/Img23.jpg';
       this.img2 = '/assets/Detalles/Img21.jpg';
