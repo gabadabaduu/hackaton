@@ -7,14 +7,12 @@
                 <img src="/assets/barras-navegacion/LogoB.png" (click)="selectTab('logoB')" alt="Logo de TripTico">
             </a>
 
-            <!-- Botón de Mis sitios turisticos -->
-            <div class="nav-item" [class.active]="selectedTab == 'misTuristicos'">
-                <span class="nav-link" (click)="selectTab('misTuristicos')">Mis sitios turisticos</span>
+            <div class="nav-item">
+                <a class="nav-link" (click)="selectTab('misTuristicos')">Mis sitios turisticos</a>
             </div>
             
-            <!-- Botón de mis ganancias  -->
-            <div class="nav-item" [class.active]="selectedTab == 'misGanancias'">
-                <span class="nav-link" (click)="selectTab('misGanancias')">Mis ganancias</span>
+            <div class="nav-item">
+                <a class="nav-link"  (click)="selectTab('misGanancias')">Mis ganancias</a>
             </div>
         </div>
         <div class="derecha">

@@ -40,7 +40,7 @@
     cursor: pointer;
 }
 
-.nav-item.active .nav-link {
+.nav-item a:active {
     color: rgb(255, 0, 0);
 }
 .moneda-img {

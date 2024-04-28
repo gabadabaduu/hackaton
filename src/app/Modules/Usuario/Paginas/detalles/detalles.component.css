@@ -139,12 +139,13 @@
 
 .date {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 28px;
   margin-bottom: 10px;
 }
 
 .date-input {
-  margin-left: 20px;   
+  font-size: 20px;
+  margin-left: 70px;   
   width: 90px;
   padding: 8px;
   margin-bottom: 30px;
@@ -154,7 +155,7 @@
 .content{
   display: flex;
   flex-direction: column;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 hr {
