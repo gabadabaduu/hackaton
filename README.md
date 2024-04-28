@@ -28,9 +28,8 @@
   
 **Juanita Franco**
 
-- Twitter: [@VladoDev](https://twitter.com/VladoDev)
+- Twitter: [@juafra123](https://twitter.com/juafra123)
 - Github: [@juafra4](https://github.com/juafra4)
-- LinkedIn: [@vladimirmikulic](https://www.linkedin.com/in/vladimir-mikulic/)
 
 **Jose Jaramillo**
 
