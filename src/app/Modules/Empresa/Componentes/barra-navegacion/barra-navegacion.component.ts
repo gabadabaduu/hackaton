@@ -21,6 +21,8 @@ export class BarraNavegacionComponent {
     if(tab== 'misGanancias'){
       this.router.navigate(['/app-mis-ganancias']);
     }
+    if(tab=='photoUser')
+      this.router.navigate(['/app-dashboard']);
 
   }
   

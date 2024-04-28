@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import {BarraNavegacionComponent} from '../../Componentes/barra-navegacion/barra-navegacion.component';
 
 @Component({
   selector: 'app-mis-sitios',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, BarraNavegacionComponent],
   templateUrl: './mis-sitios.component.html',
   styleUrl: './mis-sitios.component.css'
 })
