@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import {BarraNavegacionComponent} from '../../Componentes/barra-navegacion/barra-navegacion.component';
 
 @Component({
   selector: 'app-agregar-sitio',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, BarraNavegacionComponent],
   templateUrl: './agregar-sitio.component.html',
   styleUrl: './agregar-sitio.component.css'
 })

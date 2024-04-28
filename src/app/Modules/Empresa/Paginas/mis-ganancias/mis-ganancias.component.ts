@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import {BarraNavegacionComponent} from '../../Componentes/barra-navegacion/barra-navegacion.component';
 
 @Component({
   selector: 'app-mis-ganancias',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, BarraNavegacionComponent],
   templateUrl: './mis-ganancias.component.html',
   styleUrl: './mis-ganancias.component.css'
 })
