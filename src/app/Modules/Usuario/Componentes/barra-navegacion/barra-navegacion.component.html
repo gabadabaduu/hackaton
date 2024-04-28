@@ -8,18 +8,16 @@
             </a>
 
             <!-- Botón de A donde ir ? -->
-            <div class="nav-item" [class.active]="selectedTab == 'dondeIr'">
-                <span class="nav-link" (click)="selectTab('dondeIr')">¿A dónde ir ?</span>
+            <div class="nav-item">
+                <a class="nav-link" (click)="selectTab('dondeIr')">¿A dónde ir ?</a>
             </div>
             
-            <!-- Botón de Experinecias  -->
-            <div class="nav-item" [class.active]="selectedTab == 'experiencias'">
-                <span class="nav-link" (click)="selectTab('experiencias')">Experiencias</span>
+            <div class="nav-item">
+                <a class="nav-link" (click)="selectTab('experiencias')">Experiencias</a>
             </div>
-
-            <!-- Botón de Mis Reservas  -->
-            <div class="nav-item" [class.active]="selectedTab == 'misReservas'">
-                <span class="nav-link" (click)="selectTab('misReservas')">Mis reservas</span>
+            
+            <div class="nav-item">
+                <a class="nav-link"  (click)="selectTab('misReservas')">Mis reservas</a>
             </div>
         </div>
         <div class="derecha">

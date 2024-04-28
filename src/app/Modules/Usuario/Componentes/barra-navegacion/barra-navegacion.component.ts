@@ -17,15 +17,23 @@ export class BarraNavegacionComponent {
 
     if(tab== 'dondeIr'){
       this.router.navigate(['/app-donde-ir']);
+      this.selectedTab = tab;
+
     }
     if(tab== 'experiencias'){
       this.router.navigate(['/app-experiencias']);
+      this.selectedTab = tab;
+      
     }
     if(tab== 'misReservas'){
       this.router.navigate(['/app-mis-reservas']);
+      this.selectedTab = tab;
+
     }
     if(tab== 'photoUser'){
       this.router.navigate(['/app-dashboard']);
+      this.selectedTab = tab;
+
     }
   }
 }
