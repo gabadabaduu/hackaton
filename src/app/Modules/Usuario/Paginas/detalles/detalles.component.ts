@@ -1,11 +1,13 @@
 import { Component,OnInit,Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Router } from '@angular/router';
+import {BarraNavegacionComponent} from '../../Componentes/barra-navegacion/barra-navegacion.component';
+
 
 @Component({
   selector: 'app-detalles',
   standalone: true,
-  imports: [],
+  imports: [BarraNavegacionComponent],
   templateUrl: './detalles.component.html',
   styleUrl: './detalles.component.css'
 })

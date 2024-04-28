@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {BarraNavegacionComponent} from '../../Componentes/barra-navegacion/barra-navegacion.component';
 
 @Component({
   selector: 'app-registro',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, BarraNavegacionComponent],
   templateUrl: './registro.component.html',
   styleUrl: './registro.component.css'
 })

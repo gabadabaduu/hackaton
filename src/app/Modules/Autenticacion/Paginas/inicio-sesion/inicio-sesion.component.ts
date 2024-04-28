@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import {BarraNavegacionComponent} from '../../Componentes/barra-navegacion/barra-navegacion.component';
 
 @Component({
   selector: 'app-inicio-sesion',
   standalone: true,
-  imports: [],
+  imports: [BarraNavegacionComponent],
   templateUrl: './inicio-sesion.component.html',
   styleUrl: './inicio-sesion.component.css'
 })

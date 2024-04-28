@@ -1,11 +1,13 @@
 import { Component,OnInit,Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Router } from '@angular/router';
+import {BarraNavegacionComponent} from '../../Componentes/barra-navegacion/barra-navegacion.component';
+
 
 @Component({
   selector: 'app-checkout',
   standalone: true,
-  imports: [],
+  imports: [BarraNavegacionComponent],
   templateUrl: './checkout.component.html',
   styleUrl: './checkout.component.css'
 })
