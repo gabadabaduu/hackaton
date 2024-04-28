@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-mis-sitios',
@@ -9,6 +10,10 @@ import { Component } from '@angular/core';
   styleUrl: './mis-sitios.component.css'
 })
 export class MisSitiosComponent {
+  constructor(private router: Router) {}
+  verDetalles() {
+    this.router.navigate(['/app-agregar-sitio']);
+  }
   disponibleStyle = {
     backgroundColor: 'white'
   };

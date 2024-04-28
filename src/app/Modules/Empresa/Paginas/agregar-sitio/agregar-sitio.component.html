@@ -1,0 +1,113 @@
+<div class="text-agregar">
+    Añadir sitio turístico
+</div>
+<div class="container-agregar">
+    <div class="agregar-img">
+        <div class="agregar-img-text">
+            Añadir imagenes
+        </div>
+        <div class="agregar-img-button">
+            <button class="button-agregar">Añadir</button>
+        </div>
+    </div>
+    <div class="container2-agregar">
+        <div class="flex1-agregar">
+            <div class="flex-img">
+                <div class="pothos-container">
+                    <div class="big">
+                        <img class="img" src="/assets/Agregar-Sitio/Image1.png" alt="Img edge">
+                    </div>
+                    <div class="rigth">
+                        <div class="small">
+                            <img class="img" src="/assets/Agregar-Sitio/Image2.png" alt="Img edge">
+                        </div>
+                        <div class="small">
+                            <img class="img" src="/assets/Agregar-Sitio/Image3.png" alt="Img edge">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="insertar-360">
+                <div class="text-insertar">
+                    Insertar el archivo de la experiencia 360°
+                </div>
+                <div class="input-insertar">
+                    <div class="text-arrastrar">
+                        Arrastra el archivo aquí
+                  </div>                    
+                </div>
+                <div class="buttons-insertar">
+                    <div class="agregar-img-button">
+                        <button class="button-cancelar">Cancelar</button>
+                    </div>
+                    <div class="agregar-img-button">
+                        <button class="button-subir">Subir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex2-agregar">
+            <div class="input-container">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="input-container">
+                <label for="lugar">Lugar</label>
+                <input type="text" id="lugar" name="lugar" placeholder="Ingresa el lugar">
+            </div>
+            <div class="text-disponibilidad">
+                Disponibilidad
+            </div>
+            <div class="chose-day">
+                <div class="chose-inf">
+                    <div class="chose">
+                        17
+                    </div>
+                    <div class="text-chose">
+                        Lunes
+                    </div>
+                </div>
+                <div class="chose-inf">
+                    <div class="chose">
+                        18
+                    </div>
+                    <div class="text-chose">
+                        Martes
+                    </div>
+                </div>
+                <div class="chose-inf">
+                    <div class="chose">
+                        19
+                    </div>
+                    <div class="text-chose">
+                        Mierc
+                    </div>
+                </div>
+                <div class="chose-inf">
+                    <div class="chose">
+                        20
+                    </div>
+                    <div class="text-chose">
+                        Jueve
+                    </div>
+                </div>
+                <div class="chose-inf">
+                    <div class="chose">
+                        21
+                    </div>
+                    <div class="text-chose">
+                        Viern
+                    </div>
+                </div>
+            </div>
+            <div class="text-precio">
+                Precio
+            </div>
+            <div class="dinero">
+                <button class="plus" (click)="restarCantidad()">-</button>
+                <span class="num">${{ formatNumber(cantidad) }}COP</span>
+                <button class="minus" (click)="sumarCantidad()">+</button>
+            </div>
+        </div>
+    </div>
+</div>
