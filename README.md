@@ -12,31 +12,31 @@
   <img src="https://img.shields.io/badge/Made%20By-JoseJ1709-black">
   <img src="https://badges.frapsoft.com/os/v1/open-source.png?v">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
-  <img src="https://img.shields.io/badge/Framework-angular">
+  <img src="https://img.shields.io/badge/Framework-Angular-purple">
 </div>
 
 <h4 align="center">
-  Pagina web impulsada por la Universidad Javeriana.
+ 📱 Pagina web impulsada por la Pontificia Universidad Javeriana.🏛️
 </h4>
 
 ## :man: Autores
 **Gabriela Luigui**
 
 - Twitter: [@VladoDev](https://twitter.com/VladoDev)
-- Github: [@VladimirMikulic](https://github.com/VladimirMikulic)
+- Github: [@gabadabaduu](https://github.com/gabadabaduu)
 - LinkedIn: [@vladimirmikulic](https://www.linkedin.com/in/vladimir-mikulic/)
   
 **Juanita Franco**
 
 - Twitter: [@VladoDev](https://twitter.com/VladoDev)
-- Github: [@VladimirMikulic](https://github.com/VladimirMikulic)
+- Github: [@juafra4](https://github.com/juafra4)
 - LinkedIn: [@vladimirmikulic](https://www.linkedin.com/in/vladimir-mikulic/)
 
 **Jose Jaramillo**
 
-- Twitter: [@VladoDev](https://twitter.com/VladoDev)
-- Github: [@VladimirMikulic](https://github.com/VladimirMikulic)
-- LinkedIn: [@vladimirmikulic](https://www.linkedin.com/in/vladimir-mikulic/)
+- Twitter: [@JoseandresJar15](https://twitter.com/JoseandresJar15)
+- Github: [@JoseJ1709](https://github.com/JoseJ1709)
+- LinkedIn: [@josé-andres-jaramillo](https://www.linkedin.com/in/josé-andres-jaramillo-543bb0265/)
 
 ## :handshake: Contribuciones
 
