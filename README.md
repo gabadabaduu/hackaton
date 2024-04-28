@@ -1,27 +1,61 @@
-# Hackaton
+<div align="center">
+  <div style="position: relative;">
+      <img src="https://github.com/gabadabaduu/hackaton/assets/107308404/510543b3-ea99-44f5-b015-da011e20b051"  width="130" height="200" style="position: absolute; top: 0; left: 0;">
+   </div>
+   <div style="position: relative;">
+      <img src="https://github.com/gabadabaduu/hackaton/assets/107308404/16943c78-8222-43b2-acf3-8af2ace6e3ee"  width="300" height="100" style="position: absolute; top: 0; left: 0;">
+   </div>
+</div>
+<div align="center">
+  <img src="https://img.shields.io/badge/Made%20By-gabadabaduu-blue">
+  <img src="https://img.shields.io/badge/Made%20By-juafra4-red">
+  <img src="https://img.shields.io/badge/Made%20By-JoseJ1709-black">
+  <img src="https://badges.frapsoft.com/os/v1/open-source.png?v">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
+  <img src="https://img.shields.io/badge/Framework-angular">
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+<h4 align="center">
+  Pagina web impulsada por la Universidad Javeriana.
+</h4>
 
-## Development server
+## :man: Autores
+**Gabriela Luigui**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Twitter: [@VladoDev](https://twitter.com/VladoDev)
+- Github: [@VladimirMikulic](https://github.com/VladimirMikulic)
+- LinkedIn: [@vladimirmikulic](https://www.linkedin.com/in/vladimir-mikulic/)
+  
+**Juanita Franco**
 
-## Code scaffolding
+- Twitter: [@VladoDev](https://twitter.com/VladoDev)
+- Github: [@VladimirMikulic](https://github.com/VladimirMikulic)
+- LinkedIn: [@vladimirmikulic](https://www.linkedin.com/in/vladimir-mikulic/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Jose Jaramillo**
 
-## Build
+- Twitter: [@VladoDev](https://twitter.com/VladoDev)
+- Github: [@VladimirMikulic](https://github.com/VladimirMikulic)
+- LinkedIn: [@vladimirmikulic](https://www.linkedin.com/in/vladimir-mikulic/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## :handshake: Contribuciones
 
-## Running unit tests
+¡Las contribuciones, los problemas y las solicitudes de funciones son bienvenidos!
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🍻 Credits
+- Camila Quirós Murillo
+- Gabriela Mercedes Luigi Pena
+- María Paula Correa Moreno
+- Juanita Franco Sánchez
+- José Jaramillo Caica
+- Nicolás Montaño Arias
+- Maikol Vergara Torres
+- Sumin Han
 
-## Running end-to-end tests
+## :pencil: Licencia
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+This project is licensed under [MIT](https://opensource.org/licenses/MIT) license.
 
-## Further help
+## :man_astronaut: Muestranos tu apoyo!!
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Dale una ⭐️ si te gusto este proyecto!
