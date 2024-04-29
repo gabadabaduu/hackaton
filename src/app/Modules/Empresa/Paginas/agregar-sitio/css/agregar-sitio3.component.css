@@ -1,0 +1,129 @@
+@media (min-width: 711px) and (max-width: 1219px) {
+    .text-agregar{
+        margin-top: 20px;
+        font-size: 50px;
+    }
+    .container-agregar{
+        margin-left: 0px;
+        width: 85%;
+        height: 1250px;
+    }
+    .big{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+    }
+    .container2-agregar{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .buttons-insertar{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .insertar-360{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+}
+@media (max-width: 710px) {
+    .text-agregar{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    .container-agregar{
+        margin-left: 0px;
+        width: 75%;
+        height: 1250px;
+    }
+    .big{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+    }
+    .container2-agregar{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .input-container {
+        background-color: #F4F4F4;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        border-radius: 10px;
+        width: 300px;
+        height: 55px;
+    }
+    .input-container label {
+        margin-top: 4px;
+        display: block;
+        font-weight: bold;
+        margin-left: 0px;
+    }
+    .input-container input {
+        background-color: #F4F4F4;
+        width: 200px;
+        border: 1px solid #F4F4F4;
+        border-radius: 4px;
+        margin-left: 0px;
+    }
+    .text-disponibilidad{
+        width: 200px;
+    }
+    .chose-day{
+        margin-left: 0px;
+        width: 350px;
+    }
+    .text-precio{
+        width: 200px;
+    }
+    .num{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .flex-img{
+        transform: scale(0.5);
+        margin-left: -100px;
+    }
+    .dinero{
+        width: 200px;
+        margin-left: 10px;
+    }
+    .plus, .minus{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .text-insertar{
+        font-style: bold;
+        display: flex;
+        font-size: 28px;
+        justify-content: center;
+    }
+    .insertar-360{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        width: 300px;
+        margin-left: 20px;
+    }
+    .input-insertar {
+        width: 250px;
+        margin-left: 0px;
+    }
+    .buttons-insertar{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .flex1-agregar{
+        width: 330px;
+    }
+    .text-insertar{
+        font-size: 20px;
+    }
+    
+}

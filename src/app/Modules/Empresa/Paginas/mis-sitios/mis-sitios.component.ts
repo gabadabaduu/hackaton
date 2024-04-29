@@ -8,7 +8,7 @@ import {BarraNavegacionComponent} from '../../Componentes/barra-navegacion/barra
   standalone: true,
   imports: [CommonModule, BarraNavegacionComponent],
   templateUrl: './mis-sitios.component.html',
-  styleUrl: './mis-sitios.component.css'
+  styleUrls: ['./css/mis-sitios.component.css','./css/mis-sitios2.component.css', './css/mis-sitios3.component.css', './css/mis-sitios4.component.css']
 })
 export class MisSitiosComponent {
   constructor(private router: Router) {}

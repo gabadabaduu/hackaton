@@ -10,7 +10,7 @@ import {BarraNavegacionComponent} from '../../Componentes/barra-navegacion/barra
   imports: [CardComponent,DetallesComponent, BarraNavegacionComponent
   ],
   templateUrl: './donde-ir.component.html',
-  styleUrl: './donde-ir.component.css'
+  styleUrls: ['./css/donde-ir.component.css','./css/donde-ir2.component.css', './css/donde-ir3.component.css']
 })
 export class DondeIrComponent {
   constructor(private router: Router) {}

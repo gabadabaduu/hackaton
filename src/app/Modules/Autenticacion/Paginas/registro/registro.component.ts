@@ -7,7 +7,7 @@ import {BarraNavegacionComponent} from '../../Componentes/barra-navegacion/barra
   standalone: true,
   imports: [CommonModule, BarraNavegacionComponent],
   templateUrl: './registro.component.html',
-  styleUrl: './registro.component.css'
+  styleUrls: ['./css/registro.component.css','./css/registro2.component.css', './css/registro3.component.css','./css/registro4.component.css']
 })
 
 export class RegistroComponent {

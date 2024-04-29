@@ -1,0 +1,81 @@
+.registrar-empresa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 17px;
+    color: #FF0000;
+}
+.forgot-password-link {
+    font-size: 17px;
+    margin-left: 20px;
+    color: #000000; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+.forgot-password-link1 {
+    margin-top: 30px;
+    margin-bottom: 27px;
+    font-size: 17px;
+    margin-left: 20px;
+    color: #000000; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container-big {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 540px;
+    height: 568px;
+    background-color: #1A1A1A;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+}
+.logo {
+    width: 445px;
+    height: 568px;
+}
+.login-form {
+    background-color: #1A1A1A;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.login-title{
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+.login-title1{
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: -20px;
+}
+.label-up-email {
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    width: 352px;
+    height: 52px;
+    margin: 0%;
+    transition: transform 0.4s ease;
+}
+.label-up-email:hover {        
+    transform: scale(1.005);
+}

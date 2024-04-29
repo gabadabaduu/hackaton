@@ -1,0 +1,152 @@
+
+.ticket-container {
+    
+    background-image: url('/assets/Detalles/ticket.png');
+    background-size: cover; 
+    width: 380px;
+    height: 188px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .ticket-pay {
+    width: 440px;
+  }
+  
+  .ticket-container .nombre-tiquete {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .ticket-container .tipo {
+    font-size: 18px; 
+    margin-bottom: 5px; 
+  }
+  
+  .ticket-container .precio-tiquete {
+    font-size: 18px; 
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+  }
+  
+  .text-deta {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .input {
+    font-size: 18px;  
+  }
+  
+  .price-input {
+    margin-left: 20px;   
+    width: 90px;
+    border: none;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+  }
+  
+  hr {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .total {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .price-total {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  @media (min-width: 1431px) {
+    .title {
+      display: none;
+    }
+  }
+  
+  /*responsive/
+  
+  /* Estilos para tabletas (pantallas de 768px a 1024px) */
+  @media (min-width: 768px) and (max-width: 1430px) {
+    .main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0;
+    }
+    .izquierda {
+      order: 2;
+      margin-top: 30px;
+    }
+    .derecha {
+      order: 1;
+    }
+    .derecha > * {
+      margin-left: 0px;
+    }
+    .title {
+      margin-left: 0px;
+      margin-bottom: 10px;
+      width: 312px;
+    }
+    .ticket-header {
+      margin-left: 0px;
+      width: 582px;
+    }
+    .ticket {
+      margin-left: 0px;
+      width: 520px;
+    }
+    .detail {
+      width: 250px;
+    }
+    .title2 {
+      margin-left: 0px;
+    }
+    .form-group {
+      margin-left: 0px;
+    }
+    .horizontal-group {
+      margin-left: 0px;
+    }
+    .agreement {
+      margin-left: 0px;
+    }
+    .experiencia {
+      margin-right: 0px;
+    }
+    .ticket-label {
+      margin-right: 0px;
+    }
+    .FP{
+      width: 582px;
+    }
+    .hide-on-mobile {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,132 @@
+
+.text-disponibilidad{
+    font-size: 24px;
+    margin-left: 90px;
+}
+.chose-day{
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+    height: 95px;
+    margin-left: 150px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.chose-inf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f3f2f2;
+    border-radius: 10px;
+    width: 72px;
+    height: 90px;
+    margin-right: 15px;
+    transition: background-color 0.3s;
+}
+.text-chose{
+    font-size: 16px;
+    margin-left: 18px;
+}
+.chose{
+    margin-left: 23px;
+    font-size: 22px;
+    transition: color 0.3s;
+}
+.chose-inf:hover {
+    background-color: #FFF0F0;
+    border: 3px solid #CF0000;
+}
+
+.chose-inf:hover .chose {
+    color: #CF0000;
+}
+.text-precio{
+    font-size: 24px;
+    margin-left: 90px;
+}
+.dinero {
+    display: flex;
+    width: 600px;
+    height: 130px;
+    margin-left: 110px;
+}
+.plus {
+    font-size: 80px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.minus {
+    font-size: 80px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.num {
+    font-style: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+@media (min-width: 1220px) and (max-width: 1588px) {
+    .text-agregar{
+        margin-top: 20px;
+        font-size: 50px;
+    }
+    .container-agregar{
+        margin-left: 0px;
+        width: 90%;
+        
+    }
+    .big{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+    }
+    .input-container {
+        background-color: #F4F4F4;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        width: 400px;
+        height: 55px;
+        margin-left: 90px;
+    }
+    
+    .input-container label {
+        margin-top: 4px;
+        display: block;
+        font-weight: bold;
+        margin-left: 9px;
+    }
+    
+    .input-container input {
+        background-color: #F4F4F4;
+        width: 300px;
+        border: 1px solid #F4F4F4;
+        border-radius: 4px;
+        margin-left: 6px;
+    }
+    .text-disponibilidad{
+        width: 300px;
+    }
+    .chose-day{
+        margin-left: 50px;
+    }
+    .text-precio{
+        width: 300px;
+    }
+    .num{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .flex-img{
+        transform: scale(0.75);
+    }
+    .dinero{
+        width: 300px;
+    }
+}
+

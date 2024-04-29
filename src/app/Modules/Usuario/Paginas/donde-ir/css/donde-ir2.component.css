@@ -1,0 +1,36 @@
+
+.text2{
+    font-size: 24px;
+}
+.experience {
+    position: absolute;
+    top: 78%;
+    left: 35%; 
+    transform: translate(10%, 10%);
+    padding: 9px 16px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: #333333;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.experienceon {
+    position: absolute;
+    top: 33%;
+    left: 63%; 
+    transform: translate(10%, 10%);
+    padding: 9px 16px;
+    background-color: white;
+    border: none;
+    color: #333333;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+}

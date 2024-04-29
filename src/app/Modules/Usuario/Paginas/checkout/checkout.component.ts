@@ -9,7 +9,7 @@ import {BarraNavegacionComponent} from '../../Componentes/barra-navegacion/barra
   standalone: true,
   imports: [BarraNavegacionComponent],
   templateUrl: './checkout.component.html',
-  styleUrl: './checkout.component.css'
+  styleUrls: ['./css/checkout.component.css','./css/checkout2.component.css', './css/checkout3.component.css','./css/checkout4.component.css']
 })
 export class CheckoutComponent implements OnInit {
   id: number | undefined;

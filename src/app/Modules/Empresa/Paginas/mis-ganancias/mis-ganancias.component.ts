@@ -7,7 +7,7 @@ import {BarraNavegacionComponent} from '../../Componentes/barra-navegacion/barra
   standalone: true,
   imports: [CommonModule, BarraNavegacionComponent],
   templateUrl: './mis-ganancias.component.html',
-  styleUrl: './mis-ganancias.component.css'
+  styleUrls: ['./css/mis-ganancias.component.css','./css/mis-ganancias2.component.css', './css/mis-ganancias3.component.css']
 })
 export class MisGananciasComponent {
   disponibleStyle = {
