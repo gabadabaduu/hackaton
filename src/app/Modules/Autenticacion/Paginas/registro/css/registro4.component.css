@@ -71,7 +71,7 @@
     }
 }
 
-/* Estilos para móviles (pantallas menores a 768px) */
+/* Estilos para móviles (pantallas menores a 767px) */
 @media (max-width: 767px) {
     .registrar-empresa {
         display: flex;
@@ -93,7 +93,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 80%;
+        width: 90%;
         height: 568px;
         background-color: #1A1A1A;
         border-top-left-radius: 20px;
@@ -107,8 +107,8 @@
     }
     .circle {
         position: absolute;
-        top: 970px;
-        left: 35%;
+        top: 900px;
+        left: 20%;
         width: 220px;
         height: 220px;
         background-color: #E70000;
@@ -117,13 +117,13 @@
     }
     .login-form {
         background-color: #1A1A1A;
-        width: 90%;
+        width: 80%;
         height: 200px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-right: 10px;
+        margin-right: 0px;
     }
     .login-btn1 {
         width: 200px;
@@ -132,13 +132,16 @@
         width: 200px;
     }
     .label-up-password {
-        width: 330px;
+        width: 280px;
     }
     .label-up-email {
-        width: 330px;
+        width: 280px;
     }
     .login-title1 {
-        font-size: 25px;
+        font-size: 20px;
+        margin-top: -5px;
     }
-
+    .forgot-password-link {
+        margin-left: 0px;
+    }
 }
