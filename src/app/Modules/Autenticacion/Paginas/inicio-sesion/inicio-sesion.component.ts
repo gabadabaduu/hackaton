@@ -13,7 +13,7 @@ interface Notification {
   standalone: true,
   imports: [BarraNavegacionComponent,CommonModule],
   templateUrl: './inicio-sesion.component.html',
-  styleUrl: './inicio-sesion.component.css'
+  styleUrls: ['./css/inicio-sesion.component.css','./css/inicio-sesion2.component.css', './css/inicio-sesion3.component.css']
 })
 export class InicioSesionComponent implements OnInit{
 

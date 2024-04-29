@@ -1,0 +1,100 @@
+.img1{
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.imgC{
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.6s ease;
+}
+.img:hover {
+    transform: scale(1.02);
+}
+.travel-text{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+    color: white;
+    text-align: center;
+}
+.sub1{
+    left: 50%;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.places{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.imgT{
+    position: relative;
+    border-radius: 15px;
+    transition: transform 0.6s ease;
+}
+.sub2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.img2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    gap: 10px;
+}
+.imgD{ 
+    width: 476px;
+    height: 526px;
+    border-radius: 22px;
+}
+.imgQ{
+    position: absolute;
+    width: 360px;
+    height: 112px;
+    transform: translate(3%, 320%);
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.imgN{
+    position: absolute;
+    width: 300px;
+    height: 112px;
+    position: absolute;
+    transform: translate(20%, 70%);
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    
+}
+.text1{
+    position: absolute;
+    left: 35%;
+    font-size: 24px;
+}

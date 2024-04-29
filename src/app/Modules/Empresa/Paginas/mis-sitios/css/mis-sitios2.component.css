@@ -1,0 +1,57 @@
+
+.img1{
+    width: 96px;
+    height: 96px;
+    margin-left: 30px;
+}
+.num-num{
+    font-size: 20px;
+    color: #00EE4F;
+}
+.disponible {
+    border-radius: 13px;
+    display: flex;
+    justify-content: center; /* Alinea los botones al centro horizontalmente */
+    align-items: center; 
+    width: 240px;
+    height: 42px;
+    background-color: #00EE4F;
+}
+
+.boton-disponible{
+    margin-left: 2px;
+    width: 190px;
+    height: 38px;
+    font-size: 16px;
+    border-radius: 13px;
+    color: #007126;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.boton-desactivar {
+    margin-right: 3px;
+    width: 190px;
+    height: 38px;
+    font-size: 16px;
+    border-radius: 13px;
+    color: #007126;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.boton-disponible:hover, .boton-disponible:focus, .boton-desactivar:hover, .boton-desactivar:focus {
+    background-color: darken(#00EE4F, 10%); /* Oscurece el fondo al pasar el mouse o enfocar */
+}
+
+.boton-disponible:active, .boton-desactivar:active {
+    background-color: lighten(#00EE4F, 10%); /* Aclara el fondo al hacer clic */
+}
+.ventas{
+    transform: scale(0.7);
+    margin-left: -100px;
+}
+

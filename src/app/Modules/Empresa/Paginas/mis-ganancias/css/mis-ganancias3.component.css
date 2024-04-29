@@ -1,0 +1,65 @@
+
+
+/* Estilos para tabletas */
+@media  (min-width: 445px) and (max-width: 891px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .container-disponible1{
+        margin-left: 10px;
+        width: 80%;
+    }
+      
+    .container-disponible2{
+        margin-left: 10px;
+        width: 80%;
+    }
+    .trans-text, .numero{
+        font-size: 20px;
+    }
+    .boton-desactivar, .boton-disponible{
+        font-size: 10px;
+    }
+    .disponible{
+        width: 170px;
+        margin-left: -15px;
+    }
+    .text-disp, .text-num{
+        font-size: 20px;
+    }
+    
+}
+
+@media  (max-width: 444px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .container-disponible1{
+        margin-left: 5px;
+        width: 80%;
+    }
+      
+    .container-disponible2{
+        margin-left: 5px;
+        width: 80%;
+    }
+    .numero{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .trans-text{
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    .boton-desactivar, .boton-disponible{
+        font-size: 10px;
+    }
+    .disponible{
+        width: 170px;
+        margin-left: -15px;
+    }
+    .text-disp, .text-num{
+        font-size: 15px;
+    }
+    
+}

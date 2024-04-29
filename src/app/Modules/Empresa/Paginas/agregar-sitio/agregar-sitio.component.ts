@@ -7,7 +7,7 @@ import {BarraNavegacionComponent} from '../../Componentes/barra-navegacion/barra
   standalone: true,
   imports: [CommonModule, BarraNavegacionComponent],
   templateUrl: './agregar-sitio.component.html',
-  styleUrl: './agregar-sitio.component.css'
+  styleUrls: ['./css/agregar-sitio.component.css','./css/agregar-sitio2.component.css', './css/agregar-sitio3.component.css', './css/agregar-sitio4.component.css']
 })
 export class AgregarSitioComponent {
   cantidad: number = 32000; 

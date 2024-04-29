@@ -9,7 +9,7 @@ import {BarraNavegacionComponent} from '../../Componentes/barra-navegacion/barra
   standalone: true,
   imports: [BarraNavegacionComponent],
   templateUrl: './detalles.component.html',
-  styleUrl: './detalles.component.css'
+  styleUrls: ['./css/detalles.component.css','./css/detalles2.component.css', './css/detalles3.component.css']
 })
 export class DetallesComponent implements OnInit {
   id: number | undefined;

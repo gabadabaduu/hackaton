@@ -1,0 +1,91 @@
+
+  /* Estilos para móviles (pantallas menores a 768px) */
+  @media (max-width: 767px) {
+    .hide-on-mobile {
+      display: none;
+    }
+    .main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0;
+    }
+    .izquierda {
+      order: 2;
+      margin-top: 30px;
+    }
+    .derecha {
+      order: 1;
+    }
+    .derecha > * {
+      margin-left: 0px;
+    }
+    .title {
+      margin-left: 0px;
+      margin-bottom: 10px;
+      width: 300px;
+    }
+    .ticket-header {
+      margin-left: 0px;
+      width: 200px;
+    }
+    .ticket {
+      margin-left: 0px;
+      width: 500px;
+    }
+    .detail {
+      width: 125px;
+    }
+    .title2 {
+      margin-left: 0px;
+      width: 300px;
+    }
+    .form-group {
+      margin-left: 0px;
+      width: 300px;
+    }
+    .horizontal-group {
+      margin-left: 0px;
+      width: 300px;
+    }
+    .input-field2 {
+      width: 141px;
+      font-size: 12px;
+    }
+    .input-field{
+      width: 300px;
+    }
+    .agreement {
+      margin-left: 0px;
+      width: 300px;
+    }
+    .experiencia {
+      margin-right: 0px;
+      width: 300px;
+    }
+    .ticket-label {
+      margin-right: 0px;
+      width: 300px;
+    }
+    .FP{
+      width: 310px;
+    }
+    .payment-container {
+      width: 300px;
+    }
+    .ticket-pay {
+      width: 340px;
+      font-size: 20px;
+    }
+    .pay-button {
+      width: 340px;
+    }
+    .ticket-seter {
+      width: 300px;
+    }
+    .nombre-tiquete, .precio-tiquete, .tipo {
+      font-size: 10px;
+      margin-left: 80px;
+    }
+  }

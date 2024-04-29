@@ -1,0 +1,144 @@
+/*responsive*/
+
+/* Estilos para tabletas (pantallas de 768px a 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .registrar-empresa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .container-big {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .container {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 568px;
+        background-color: #1A1A1A;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-right: none;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .circle {
+        position: absolute;
+        top: 970px;
+        left: 37%;
+        width: 250px;
+        height: 250px;
+        background-color: #E70000;
+        border-radius: 50%;
+        align-items: center;
+    }
+    .login-form {
+        background-color: #1A1A1A;
+        width: 90%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+    }
+    .login-btn1 {
+        width: 200px;
+    }
+    .login-btn {
+        width: 200px;
+    }
+    .label-up-password {
+        width: 330px;
+    }
+    .label-up-email {
+        width: 330px;
+    }
+    .login-title1 {
+        font-size: 25px;
+    }
+}
+
+/* Estilos para móviles (pantallas menores a 768px) */
+@media (max-width: 767px) {
+    .registrar-empresa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .container-big {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .container {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 568px;
+        background-color: #1A1A1A;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-right: none;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .circle {
+        position: absolute;
+        top: 970px;
+        left: 35%;
+        width: 220px;
+        height: 220px;
+        background-color: #E70000;
+        border-radius: 50%;
+        align-items: center;
+    }
+    .login-form {
+        background-color: #1A1A1A;
+        width: 90%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+    }
+    .login-btn1 {
+        width: 200px;
+    }
+    .login-btn {
+        width: 200px;
+    }
+    .label-up-password {
+        width: 330px;
+    }
+    .label-up-email {
+        width: 330px;
+    }
+    .login-title1 {
+        font-size: 25px;
+    }
+
+}

@@ -1,0 +1,88 @@
+.ticket-container .nombre-tiquete {
+  
+    font-weight: bold;
+    font-size: 42px;
+  }
+  
+  .tipo{
+    font-size: 38px;
+  }
+  .ticket-container .precio-tiquete { 
+    font-size: 35px;
+  }
+  
+  .ticket-pay {
+    margin-right: 160px;
+    margin-top: 100px;
+    width: 440px;
+    height: 290px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 35px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.39); 
+    border-color: #ccc;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .rating {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .date {
+    margin-top: 20px;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .date-input {
+    font-size: 20px;
+    margin-left: 70px;   
+    width: 90px;
+    padding: 8px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #ccc; 
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  
+  hr {
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .total {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .price-total {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .pay-button {
+    width: 410px;
+    height: 44px;
+    border: none;
+    border-radius: 18px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
