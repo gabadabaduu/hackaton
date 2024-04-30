@@ -1,4 +1,4 @@
-@media (min-width: 711px) and (max-width: 1219px) {
+@media (min-width: 701px) and (max-width: 1219px) {
     .text-agregar{
         margin-top: 20px;
         font-size: 50px;
@@ -28,9 +28,11 @@
         align-items: center;
         justify-items: center;
     }
-
+    .hide-on-web {
+        display: none;
+    }
 }
-@media (max-width: 710px) {
+@media (max-width: 700px) {
     .text-agregar{
         margin-top: 20px;
         font-size: 35px;
@@ -51,36 +53,33 @@
         align-items: center;
         justify-items: center;
     }
-    .input-container {
-        background-color: #F4F4F4;
-        margin-bottom: 30px;
-        margin-left: 0px;
-        border-radius: 10px;
-        width: 300px;
-        height: 55px;
-    }
-    .input-container label {
+    .input-container1 label {
         margin-top: 4px;
-        display: block;
         font-weight: bold;
+        display: block;
+        margin-left: 0px;
+        width: 250px;
+    }
+    .input-container1 input#nombre {
+        width: 250px;
         margin-left: 0px;
     }
-    .input-container input {
-        background-color: #F4F4F4;
-        width: 200px;
-        border: 1px solid #F4F4F4;
-        border-radius: 4px;
+    .input-container1 input#lugar {
+        width: 250px;
         margin-left: 0px;
     }
     .text-disponibilidad{
         width: 200px;
     }
     .chose-day{
-        margin-left: 0px;
-        width: 350px;
+        margin-left: 15px;
+        width: 320px;
     }
     .text-precio{
         width: 200px;
+    }
+    .text-chose{
+        font-size: 10px;
     }
     .num{
         margin-left: 20px;
@@ -101,7 +100,7 @@
     .text-insertar{
         font-style: bold;
         display: flex;
-        font-size: 28px;
+        font-size: 15px;
         justify-content: center;
     }
     .insertar-360{
@@ -109,7 +108,7 @@
         align-items: center;
         justify-items: center;
         width: 300px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .input-insertar {
         width: 250px;
@@ -125,5 +124,29 @@
     .text-insertar{
         font-size: 20px;
     }
-    
+    .label{
+        font-size: 20px;
+        width: 200px;
+    }
+    .input-container1{
+        background-color: #F4F4F4;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        width: 300px;
+        height: 55px;
+        margin-left: 10px;
+    }
+    .input-container1 input {
+        background-color: #F4F4F4;
+        width: 300px;
+        border: 1px solid #F4F4F4;
+        border-radius: 4px;
+        margin-left: 15px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .hide-on-web {
+        display: block;
+    }
 }
