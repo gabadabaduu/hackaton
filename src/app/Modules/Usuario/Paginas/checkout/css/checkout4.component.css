@@ -32,7 +32,7 @@
     }
     .ticket {
       margin-left: 0px;
-      width: 500px;
+      width: 300px;
     }
     .detail {
       width: 125px;
@@ -47,11 +47,11 @@
     }
     .horizontal-group {
       margin-left: 0px;
-      width: 300px;
+      width: 240px;
     }
     .input-field2 {
-      width: 141px;
-      font-size: 12px;
+      width: 120px;
+      font-size: 10px;
     }
     .input-field{
       width: 300px;
@@ -62,24 +62,24 @@
     }
     .experiencia {
       margin-right: 0px;
-      width: 300px;
+      width: 270px;
     }
     .ticket-label {
       margin-right: 0px;
-      width: 300px;
+      width: 270px;
     }
     .FP{
-      width: 310px;
+      width: 300px;
     }
     .payment-container {
       width: 300px;
     }
     .ticket-pay {
-      width: 340px;
+      width: 300px;
       font-size: 20px;
     }
     .pay-button {
-      width: 340px;
+      width: 300px;
     }
     .ticket-seter {
       width: 300px;
@@ -87,5 +87,8 @@
     .nombre-tiquete, .precio-tiquete, .tipo {
       font-size: 10px;
       margin-left: 80px;
+    }
+    .form-group2 {
+      margin-right: 10px;
     }
   }
