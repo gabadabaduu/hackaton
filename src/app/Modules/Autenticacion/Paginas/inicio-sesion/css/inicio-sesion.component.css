@@ -2,7 +2,7 @@
     position: fixed;
     top: 20px;
     left: 20px;
-    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+    z-index: 1000;
 }
 .notification {
     display: flex;
@@ -12,7 +12,7 @@
     height: 80px;
     border-radius: 20px;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega sombra para resaltar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     animation: slide-in-out 0.5s forwards;
 }
 .notification::after {

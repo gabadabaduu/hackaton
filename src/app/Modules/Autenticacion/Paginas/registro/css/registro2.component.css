@@ -68,14 +68,11 @@
 .login-btn1:hover {
     transform: scale(1.02);
 }
-
-
 .social-login {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
 }
-
 .facebook-btn {
     width: 81px;
     height: 36px;
@@ -92,7 +89,6 @@
 .facebook-btn:hover {
     transform: scale(1.09);
 }
-
 .google-btn {
     margin-right: 10px;
     width: 81px;
